@@ -1,124 +1,124 @@
-,film,director
-0,Citizen Kane,Orson Welles
-1,Casablanca,Michael Curtiz
-2,The Godfather,Francis Ford Coppola
-3,Gone with the Wind,Victor Fleming
-4,Lawrence of Arabia,David Lean
-5,The Wizard of Oz,Victor Fleming
-6,The Graduate,Mike Nichols
-7,On the Waterfront,Elia Kazan
-8,Schindler's List,Steven Spielberg
-9,Singin' in the Rain,Gene Kelly
-10,It's a Wonderful Life,Frank Capra
-11,Sunset Boulevard,Billy Wilder
-12,The Bridge on the River Kwai,David Lean
-13,Some Like It Hot,Billy Wilder
-14,Star Wars,George Lucas
-15,All About Eve,Joseph L. Mankiewicz
-16,The African Queen,John Huston
-17,Psycho,Alfred Hitchcock
-18,The General,Buster Keaton
-19,Chinatown,Roman Polanski
-20,One Flew Over the Cuckoo's Nest,Miloš Forman
-21,The Grapes of Wrath,John Ford
-22,2001: A Space Odyssey,Stanley Kubrick
-23,The Maltese Falcon,John Huston
-24,Raging Bull,Martin Scorsese
-25,E.T. the Extra-Terrestrial,Steven Spielberg
-26,Dr. Strangelove,Stanley Kubrick
-27,Bonnie and Clyde,Arthur Penn
-28,Apocalypse Now,Francis Ford Coppola
-29,Mr. Smith Goes to Washington,Frank Capra
-30,The Treasure of the Sierra Madre,John Huston
-31,Annie Hall,Woody Allen
-32,The Godfather Part II,Francis Ford Coppola
-33,High Noon,Fred Zinnemann
-34,To Kill a Mockingbird,Robert Mulligan
-35,It Happened One Night,Frank Capra
-36,Midnight Cowboy,John Schlesinger
-37,The Best Years of Our Lives,William Wyler
-38,Double Indemnity,Billy Wilder
-39,Doctor Zhivago,David Lean
-40,North by Northwest,Alfred Hitchcock
-41,West Side Story,Robert Wise
-42,Rear Window,Alfred Hitchcock
-43,King Kong,Merian C. Cooper
-44,The Birth of a Nation,D. W. Griffith
-45,A Streetcar Named Desire,Elia Kazan
-46,A Clockwork Orange,Stanley Kubrick
-47,Taxi Driver,Martin Scorsese
-48,Jaws,Steven Spielberg
-49,Snow White and the Seven Dwarfs,"David Hand, et al."
-50,Intolerance,D. W. Griffith
-51,Butch Cassidy and the Sundance Kid,George Roy Hill
-52,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson
-53,The Philadelphia Story,George Cukor
-54,From Here to Eternity,Fred Zinnemann
-55,Amadeus,Miloš Forman
-56,All Quiet on the Western Front,Lewis Milestone
-57,The Sound of Music,Robert Wise
-58,MASH,Robert Altman
-59,The Third Man,Carol Reed
-60,Fantasia,Walt Disney
-61,Rebel Without a Cause,Nicholas Ray
-62,Nashville,Robert Altman
-63,Raiders of the Lost Ark,Steven Spielberg
-64,Vertigo,Alfred Hitchcock
-65,Sullivan's Travels,Preston Sturges
-66,Tootsie,Sydney Pollack
-67,Stagecoach,John Ford
-68,Cabaret,Bob Fosse
-69,Close Encounters of the Third Kind,Steven Spielberg
-70,The Silence of the Lambs,Jonathan Demme
-71,Network,Sidney Lumet
-72,The Manchurian Candidate,John Frankenheimer
-73,Who's Afraid of Virginia Woolf?,Mike Nichols
-74,An American in Paris,Vincente Minnelli
-75,Shane,George Stevens
-76,The French Connection,William Friedkin
-77,Forrest Gump,Robert Zemeckis
-78,Saving Private Ryan,Steven Spielberg
-79,Ben-Hur,William Wyler
-80,The Shawshank Redemption,Frank Darabont
-81,Wuthering Heights,William Wyler
-82,The Gold Rush,Charlie Chaplin
-83,Dances with Wolves,Kevin Costner
-84,In the Heat of the Night,Norman Jewison
-85,City Lights,Charlie Chaplin
-86,American Graffiti,George Lucas
-87,All the President's Men,Alan J. Pakula
-88,Rocky,John G. Avildsen
-89,The Deer Hunter,Michael Cimino
-90,The Wild Bunch,Sam Peckinpah
-91,Modern Times,Charlie Chaplin
-92,Spartacus,Stanley Kubrick
-93,Giant,George Stevens
-94,Sunrise: A Song of Two Humans,F. W. Murnau
-95,Platoon,Oliver Stone
-96,Titanic,James Cameron
-97,Fargo,Coen brothers
-98,Duck Soup,Leo McCarey
-99,A Night at the Opera,Sam Wood
-100,Mutiny on the Bounty,Frank Lloyd
-101,Frankenstein,James Whale
-102,12 Angry Men,Sidney Lumet
-103,Easy Rider,Dennis Hopper
-104,Patton,Franklin J. Schaffner
-105,The Sixth Sense,M. Night Shyamalan
-106,The Jazz Singer,Alan Crosland
-107,Swing Time,George Stevens
-108,My Fair Lady,George Cukor
-109,Sophie's Choice,Alan J. Pakula
-110,A Place in the Sun,George Stevens
-111,The Apartment,Billy Wilder
-112,Goodfellas,Martin Scorsese
-113,Pulp Fiction,Quentin Tarantino
-114,The Last Picture Show,Peter Bogdanovich
-115,The Searchers,John Ford
-116,Do the Right Thing,Spike Lee
-117,Bringing Up Baby,Howard Hawks
-118,Blade Runner,Ridley Scott
-119,Unforgiven,Clint Eastwood
-120,Guess Who's Coming to Dinner,Stanley Kramer
-121,Toy Story,John Lasseter
-122,Yankee Doodle Dandy,Michael Curtiz
+film,director
+Citizen Kane,Orson Welles
+Casablanca,Michael Curtiz
+The Godfather,Francis Ford Coppola
+Gone with the Wind,Victor Fleming
+Lawrence of Arabia,David Lean
+The Wizard of Oz,Victor Fleming
+The Graduate,Mike Nichols
+On the Waterfront,Elia Kazan
+Schindler's List,Steven Spielberg
+Singin' in the Rain,Gene Kelly
+It's a Wonderful Life,Frank Capra
+Sunset Boulevard,Billy Wilder
+The Bridge on the River Kwai,David Lean
+Some Like It Hot,Billy Wilder
+Star Wars,George Lucas
+All About Eve,Joseph L. Mankiewicz
+The African Queen,John Huston
+Psycho,Alfred Hitchcock
+The General,Buster Keaton
+Chinatown,Roman Polanski
+One Flew Over the Cuckoo's Nest,Miloš Forman
+The Grapes of Wrath,John Ford
+2001: A Space Odyssey,Stanley Kubrick
+The Maltese Falcon,John Huston
+Raging Bull,Martin Scorsese
+E.T. the Extra-Terrestrial,Steven Spielberg
+Dr. Strangelove,Stanley Kubrick
+Bonnie and Clyde,Arthur Penn
+Apocalypse Now,Francis Ford Coppola
+Mr. Smith Goes to Washington,Frank Capra
+The Treasure of the Sierra Madre,John Huston
+Annie Hall,Woody Allen
+The Godfather Part II,Francis Ford Coppola
+High Noon,Fred Zinnemann
+To Kill a Mockingbird,Robert Mulligan
+It Happened One Night,Frank Capra
+Midnight Cowboy,John Schlesinger
+The Best Years of Our Lives,William Wyler
+Double Indemnity,Billy Wilder
+Doctor Zhivago,David Lean
+North by Northwest,Alfred Hitchcock
+West Side Story,Robert Wise
+Rear Window,Alfred Hitchcock
+King Kong,Merian C. Cooper
+The Birth of a Nation,D. W. Griffith
+A Streetcar Named Desire,Elia Kazan
+A Clockwork Orange,Stanley Kubrick
+Taxi Driver,Martin Scorsese
+Jaws,Steven Spielberg
+Snow White and the Seven Dwarfs,"David Hand, et al."
+Intolerance,D. W. Griffith
+Butch Cassidy and the Sundance Kid,George Roy Hill
+The Lord of the Rings: The Fellowship of the Ring,Peter Jackson
+The Philadelphia Story,George Cukor
+From Here to Eternity,Fred Zinnemann
+Amadeus,Miloš Forman
+All Quiet on the Western Front,Lewis Milestone
+The Sound of Music,Robert Wise
+MASH,Robert Altman
+The Third Man,Carol Reed
+Fantasia,Walt Disney
+Rebel Without a Cause,Nicholas Ray
+Nashville,Robert Altman
+Raiders of the Lost Ark,Steven Spielberg
+Vertigo,Alfred Hitchcock
+Sullivan's Travels,Preston Sturges
+Tootsie,Sydney Pollack
+Stagecoach,John Ford
+Cabaret,Bob Fosse
+Close Encounters of the Third Kind,Steven Spielberg
+The Silence of the Lambs,Jonathan Demme
+Network,Sidney Lumet
+The Manchurian Candidate,John Frankenheimer
+Who's Afraid of Virginia Woolf?,Mike Nichols
+An American in Paris,Vincente Minnelli
+Shane,George Stevens
+The French Connection,William Friedkin
+Forrest Gump,Robert Zemeckis
+Saving Private Ryan,Steven Spielberg
+Ben-Hur,William Wyler
+The Shawshank Redemption,Frank Darabont
+Wuthering Heights,William Wyler
+The Gold Rush,Charlie Chaplin
+Dances with Wolves,Kevin Costner
+In the Heat of the Night,Norman Jewison
+City Lights,Charlie Chaplin
+American Graffiti,George Lucas
+All the President's Men,Alan J. Pakula
+Rocky,John G. Avildsen
+The Deer Hunter,Michael Cimino
+The Wild Bunch,Sam Peckinpah
+Modern Times,Charlie Chaplin
+Spartacus,Stanley Kubrick
+Giant,George Stevens
+Sunrise: A Song of Two Humans,F. W. Murnau
+Platoon,Oliver Stone
+Titanic,James Cameron
+Fargo,Coen brothers
+Duck Soup,Leo McCarey
+A Night at the Opera,Sam Wood
+Mutiny on the Bounty,Frank Lloyd
+Frankenstein,James Whale
+12 Angry Men,Sidney Lumet
+Easy Rider,Dennis Hopper
+Patton,Franklin J. Schaffner
+The Sixth Sense,M. Night Shyamalan
+The Jazz Singer,Alan Crosland
+Swing Time,George Stevens
+My Fair Lady,George Cukor
+Sophie's Choice,Alan J. Pakula
+A Place in the Sun,George Stevens
+The Apartment,Billy Wilder
+Goodfellas,Martin Scorsese
+Pulp Fiction,Quentin Tarantino
+The Last Picture Show,Peter Bogdanovich
+The Searchers,John Ford
+Do the Right Thing,Spike Lee
+Bringing Up Baby,Howard Hawks
+Blade Runner,Ridley Scott
+Unforgiven,Clint Eastwood
+Guess Who's Coming to Dinner,Stanley Kramer
+Toy Story,John Lasseter
+Yankee Doodle Dandy,Michael Curtiz
