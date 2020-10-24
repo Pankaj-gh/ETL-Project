@@ -15,8 +15,13 @@ from flask import Flask, jsonify
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("postgres:///movies.sql")
+# engine = create_engine("postgres:///movies.sql")
 
+pg_user = 'postgres'
+db_name = 'ETL Project'
+
+connection_string = f"{pg_user}:3963@localhost:5432/{db_name}"
+engine = create_engine(f'postgresql://{connection_string}')
 # reflect an existing database into a new model
 Base = automap_base()
 Base.prepare(engine, reflect=True)
@@ -46,7 +51,7 @@ def welcome():
 
 
 @app.route("/api/v1.0/wiki")
-def wiki():
+def wikis():
     """Return a list of all movie names"""
 
     # Query all passengers
@@ -63,7 +68,7 @@ def wiki():
 
 
 @app.route("/api/v1.0/movies")
-def movies():
+def movie_():
     """Return a list movies and where they are streaming"""
 
     # Open a communication session with the database
