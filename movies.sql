@@ -11,9 +11,7 @@ director TEXT);
 
 select * from wiki;
 
-select m.title,w.director,m.streaming_channel
-from movies m
-join wiki w on m.title=w.film;
+
 
 Create view wiki_movie as
 select m.title,w.director,m.streaming_channel
