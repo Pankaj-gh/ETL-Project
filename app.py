@@ -11,11 +11,16 @@ from sqlalchemy import create_engine
 
 from flask import Flask, jsonify
 
-
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("postgres:///movies.sql")
+pg_user = 'postgres'
+pg_password = 'postgres'
+db_name = 'ETL Project'
+
+connection_string = f"{pg_user}:Jennifer11@localhost:5432/{db_name}"
+engine = create_engine(f'postgresql://{connection_string}')
+
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -24,6 +29,7 @@ Base.prepare(engine, reflect=True)
 # Save reference to the table
 movies = Base.classes.movies
 wiki = Base.classes.wiki
+# table = Base.classes.wiki_movie
 
 #################################################
 # Flask Setup
@@ -46,10 +52,10 @@ def welcome():
 
 
 @app.route("/api/v1.0/wiki")
-def wiki():
+def wiki_():
     """Return a list of all movie names"""
 
-    # Query all passengers
+    # Query all movies
     session = Session(engine)
     results = session.query(wiki.film).all()
 
@@ -63,27 +69,21 @@ def wiki():
 
 
 @app.route("/api/v1.0/movies")
-def movies():
+def movies_():
     """Return a list movies and where they are streaming"""
 
-    # Open a communication session with the database
+    # Query all movies
     session = Session(engine)
-
-    # Query all passengers
-    results = session.query(movies).all()
+    results = session.query(movies.title).all()
 
     # close the session to end the communication with the database
     session.close()
 
-    # Create a dictionary from the row data and append to a list of all_passengers
-    all_movies = []
-    for movie in results:
-        movies_dict = {}
-        movies_dict["Title"] = movies.title
-        movies_dict["Streaming_Channel"] = movies.streaming_channel
-        all_movies.append(movies_dict)
+    # Convert list of tuples into normal list
+    all_names = list(np.ravel(results))
+    print(all_names)
+    return jsonify(all_names)
 
-    return jsonify(all_movies)
 
 
 if __name__ == '__main__':
