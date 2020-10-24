@@ -14,6 +14,7 @@ from flask import Flask, jsonify
 #################################################
 # Database Setup
 #################################################
+<<<<<<< HEAD:app.py
 pg_user = 'postgres'
 pg_password = 'postgres'
 db_name = 'ETL Project'
@@ -21,7 +22,15 @@ db_name = 'ETL Project'
 connection_string = f"{pg_user}:Jennifer11@localhost:5432/{db_name}"
 engine = create_engine(f'postgresql://{connection_string}')
 
+=======
+# engine = create_engine("postgres:///movies.sql")
+>>>>>>> 7b5250cb13d311563a507215e3e98e48f631b87a:etl_flask.py
 
+pg_user = 'postgres'
+db_name = 'ETL Project'
+
+connection_string = f"{pg_user}:3963@localhost:5432/{db_name}"
+engine = create_engine(f'postgresql://{connection_string}')
 # reflect an existing database into a new model
 Base = automap_base()
 Base.prepare(engine, reflect=True)
@@ -52,7 +61,11 @@ def welcome():
 
 
 @app.route("/api/v1.0/wiki")
+<<<<<<< HEAD:app.py
 def wiki_():
+=======
+def wikis():
+>>>>>>> 7b5250cb13d311563a507215e3e98e48f631b87a:etl_flask.py
     """Return a list of all movie names"""
 
     # Query all movies
@@ -69,7 +82,11 @@ def wiki_():
 
 
 @app.route("/api/v1.0/movies")
+<<<<<<< HEAD:app.py
 def movies_():
+=======
+def movie_():
+>>>>>>> 7b5250cb13d311563a507215e3e98e48f631b87a:etl_flask.py
     """Return a list movies and where they are streaming"""
 
     # Query all movies
