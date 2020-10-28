@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Where to Stream the Top 100 Movies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="jumbotron">Where to Stream the Top 100 Movies</h1>
+
+    <!-- Create an unordered list (ul) and insert "li" elements for the provided dictionary keys. -->
+    {% for title in all_names %}
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">{{ title }}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    {% endfor %}
+
+
+  </div>
+</body>
+
+</html>
